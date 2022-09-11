@@ -1,0 +1,49 @@
+.ul1 {
+    list-style-type: none;
+    overflow: hidden;
+    display: table;
+    margin: auto;
+}
+
+form
+{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px;
+    background-color: rgba(247, 165, 197, 0.766);
+       margin:20px;
+    padding: 20px;
+
+}
+
+
+.items:hover{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 10px;
+}
+body {
+    background-image: url('h4.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+button{
+    background-color: rgb(255, 0, 0);
+    margin: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+select{
+    width: 100%;
+    border-radius: 10px;
+}
